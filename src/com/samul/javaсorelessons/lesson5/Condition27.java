@@ -21,10 +21,15 @@ public class Condition27 {
 		}
 		
 		if (min1 > min2) {
-			System.out.println("Max = " + min1);
+			System.out.println("1. Max = " + min1);
 		} else {
-			System.out.println("Max = " + min2);
+			System.out.println("1. Max = " + min2);
 		}
+		
+		// Еще можно решить через тернарный оператор.
+		
+		int result = (a < b ? a : b) > (c < d ? c : d) ? (a < b ? a : b) : (c < d ? c : d);
+		System.out.println("2. Max = " + result);
 		
 
 	}

@@ -5,7 +5,7 @@ package com.samul.javaсorelessons.lesson5;
 public class Condition29 {
 
 	public static void main(String[] args) {
-		int x1 = 0, y1 = 0, x2 = 5, y2 = 5, x3 = 10, y3 = 10;
+		int x1 = 0, y1 = 0, x2 = -15, y2 = -15, x3 = 10, y3 = 10;
 		
 		if ((x3 - x1) / (x2 - x1) == (y3 - y1) / (y2 - y1)) {
 			System.out.println("Точки лежат на одной прямой");

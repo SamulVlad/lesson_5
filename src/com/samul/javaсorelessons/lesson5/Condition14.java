@@ -16,6 +16,8 @@ public class Condition14 {
 			} else {
 				System.out.print("не прямоугольный");
 			}
+		} else {
+			System.out.println("Такого треугольника не существует!");
 		}
 
 	}

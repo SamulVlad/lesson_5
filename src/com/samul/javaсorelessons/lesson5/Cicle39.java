@@ -6,7 +6,14 @@ package com.samul.javaсorelessons.lesson5;
 public class Cicle39 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		for (int num = 100; num <= 999; num++) {
+			int newNum = num % 100;
+			if (num == newNum * 7) {
+				System.out.println(num);
+				break;
+			}
+		}
 
 	}
 
